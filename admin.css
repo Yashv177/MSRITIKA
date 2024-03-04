@@ -1,0 +1,35 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    color: #fff;
+    background: #000;
+    height: 80px;
+}
+.header h1{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    height: 80px;
+    background:#dbd6d1;
+}
+.menu ul{
+    display: inline-flex;
+    padding: 5px;
+}
+.menu ul li{
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+iframe{
+    margin-top: 20px;
+    /* scrollbar-gutter: stable; */
+}
